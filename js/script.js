@@ -1,4 +1,4 @@
-import { VS_CODE, FS_CODE } from './shader.js';
+import { VS_CODE, FS_CODE } from '../js/shader.js';
 
 onload = function initCanvas(){
     // canvasのエレメントを取得
@@ -14,6 +14,7 @@ onload = function initCanvas(){
     gl.clear(gl.COLOR_BUFFER_BIT);
 }
 
+/*
 function create_shader(){
     // シェーダを格納する変数
     // var shader;
@@ -64,3 +65,4 @@ function create_program(vs, fs){
         alert(gl.getProgramInfoLog(program));
     }
 }
+*/
